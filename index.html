@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Javascript</title>
+    <link rel="stylesheet" href="./mais.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1>Exercício HTML com Javascript</h1>
+        <h2>Formulário</h2>
+        <form id="formulario">
+            <div class="campos">
+                <label for="campoA">Campo A:</label>
+                <input type="number" id="campoA" required placeholder="Digite um número">
+            </div>
+            <div class="campos">    
+                <label for="campoB">Campo B:</label>
+                <input type="number" id="campoB" required placeholder="Digite um número">
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+
+        <p class="valid-mensage"> 
+            Sucesso! O Campo B é maior que o Campo A.
+        </p>
+        <p class="invalid-mensage">  
+            Invalido! O Campo B precisa ser maior que o Campo A
+        </p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
